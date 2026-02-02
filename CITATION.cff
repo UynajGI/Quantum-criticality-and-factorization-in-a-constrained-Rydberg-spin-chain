@@ -1,5 +1,4 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Jiang"
   given-names: "Yuan"
@@ -12,7 +11,6 @@ authors:
 - family-names: "Liu"
   given-names: "Maoxin"
 title: "Quantum Criticality and Factorization in a Constrained Rydberg Spin Chain"
-version: 2.0.4
 doi: 
 date-released: 2026-02-02
 url: "https://github.com/UynajGI/Quantum-criticality-and-factorization-in-a-constrained-Rydberg-spin-chain"
