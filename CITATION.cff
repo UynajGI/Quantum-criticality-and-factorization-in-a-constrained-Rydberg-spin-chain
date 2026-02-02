@@ -5,7 +5,12 @@ authors:
   given-names: "Yuan"
 - family-names: "You"
   given-names: "Wen-Long"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "You"
+  given-names: "Wen-Long"
+- family-names: "Li"
+  given-names: "Liangsheng"
+- family-names: "Liu"
+  given-names: "Maoxin"
 title: "Quantum Criticality and Factorization in a Constrained Rydberg Spin Chain"
 version: 2.0.4
 doi: 
