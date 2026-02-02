@@ -1,0 +1,1 @@
+# Quantum-criticality-and-factorization-in-a-constrained-Rydberg-spin-chain
