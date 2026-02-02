@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+type: dataset
+title: "Data from: Quantum Criticality and Factorization in a Constrained Rydberg Spin Chain"
+authors:
+  - family-names: "Author"
+    given-names: "First"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Institution Name"
+  - family-names: "Collaborator"
+    given-names: "Second"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Institution Name"
+repository-code: "https://github.com/UynajGI/Quantum-criticality-and-factorization-in-a-constrained-Rydberg-spin-chain"
+url: "https://github.com/UynajGI/Quantum-criticality-and-factorization-in-a-constrained-Rydberg-spin-chain"
+abstract: >
+  This repository contains numerical data and analysis code for the paper
+  "Quantum Criticality and Factorization in a Constrained Rydberg Spin Chain".
+  The data includes ground state properties, correlation functions, entanglement
+  measures, and finite-size scaling analysis for a quantum many-body system with
+  Rydberg blockade constraints. The dataset enables verification of the paper's
+  results and supports further scaling analysis by the research community.
+keywords:
+  - quantum criticality
+  - Rydberg atoms
+  - quantum phase transitions
+  - entanglement
+  - factorization
+  - finite-size scaling
+  - constrained many-body systems
+license: CC-BY-4.0
+version: 1.0.0
+date-released: "2024-01-01"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Author"
+      given-names: "First"
+      orcid: "https://orcid.org/0000-0000-0000-0000"
+    - family-names: "Collaborator"
+      given-names: "Second"
+      orcid: "https://orcid.org/0000-0000-0000-0000"
+  title: "Quantum Criticality and Factorization in a Constrained Rydberg Spin Chain"
+  journal: "Physical Review Letters"
+  year: 2024
+  volume: XXX
+  issue: X
+  start: XXXXX
+  end: XXXXX
+  doi: "10.1103/PhysRevLett.XXX.XXXXX"

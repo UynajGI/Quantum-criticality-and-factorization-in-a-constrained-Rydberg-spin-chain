@@ -1,0 +1,119 @@
+{
+  "title": "Quantum Criticality and Factorization in a Constrained Rydberg Spin Chain - Dataset",
+  "version": "1.0.0",
+  "description": "Numerical data from quantum many-body simulations of constrained Rydberg spin chains, including ground state properties, phase transitions, and entanglement measures",
+  "creators": [
+    {
+      "name": "Author, First",
+      "affiliation": "Institution Name",
+      "orcid": "0000-0000-0000-0000"
+    },
+    {
+      "name": "Collaborator, Second",
+      "affiliation": "Institution Name",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "publication_date": "2024-01-01",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "quantum criticality",
+    "Rydberg atoms",
+    "quantum phase transitions",
+    "entanglement",
+    "factorization",
+    "finite-size scaling",
+    "PXP model",
+    "constrained dynamics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1103/PhysRevLett.XXX.XXXXX",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "arXiv:XXXX.XXXXX",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv"
+    }
+  ],
+  "datasets": {
+    "raw_data": {
+      "ground_state_energies": {
+        "file": "data/raw_data/ground_state_energies.npz",
+        "description": "Ground state energies for various system sizes and coupling parameters",
+        "size_range": [8, 32],
+        "parameter_range": {
+          "g": [0.0, 2.0],
+          "step": 0.02
+        }
+      },
+      "order_parameters": {
+        "file": "data/raw_data/order_parameters.npz",
+        "description": "Magnetization, staggered magnetization, and Rydberg density",
+        "observables": ["magnetization", "staggered_magnetization", "density"]
+      },
+      "correlation_functions": {
+        "file": "data/raw_data/correlation_functions.npz",
+        "description": "Two-point correlation functions for spin and density",
+        "types": ["spin-spin", "density-density"]
+      },
+      "entanglement": {
+        "file": "data/raw_data/entanglement.npz",
+        "description": "Entanglement entropy, Renyi entropy, and Schmidt gap",
+        "measures": ["von_Neumann", "Renyi", "Schmidt_gap"]
+      }
+    },
+    "processed_data": {
+      "phase_diagram": {
+        "file": "data/processed_data/phase_diagram.csv",
+        "description": "Critical points and phase boundaries",
+        "format": "CSV"
+      },
+      "fss_data": {
+        "file": "data/processed_data/fss_data.npz",
+        "description": "Finite-size scaling collapsed data",
+        "exponents": ["nu", "beta", "gamma"]
+      },
+      "critical_exponents": {
+        "file": "data/processed_data/critical_exponents.json",
+        "description": "Extracted critical exponents with uncertainties",
+        "format": "JSON"
+      },
+      "factorization": {
+        "file": "data/processed_data/factorization.csv",
+        "description": "Factorization transition points and entanglement measures",
+        "format": "CSV"
+      }
+    }
+  },
+  "numerical_methods": {
+    "exact_diagonalization": {
+      "system_sizes": [8, 12, 16, 20],
+      "precision": "double",
+      "convergence": 1e-10
+    },
+    "dmrg": {
+      "system_sizes": [24, 28, 32],
+      "bond_dimension": 512,
+      "sweeps": 10,
+      "convergence": 1e-10
+    }
+  },
+  "computational_resources": {
+    "total_cpu_hours": 500,
+    "facility": "Institution HPC Cluster",
+    "generated": "2024-01-01"
+  },
+  "contact": {
+    "name": "First Author",
+    "email": "author@institution.edu",
+    "institution": "Institution Name"
+  },
+  "repository": {
+    "url": "https://github.com/UynajGI/Quantum-criticality-and-factorization-in-a-constrained-Rydberg-spin-chain",
+    "branch": "main",
+    "commit": "initial"
+  }
+}

@@ -1,0 +1,28 @@
+# Data Placeholder
+
+This directory will contain the actual raw numerical data from simulations.
+
+## Expected Files
+
+The following data files should be placed here:
+
+1. **ground_state_energies.npz** - Ground state energies for various system sizes
+2. **order_parameters.npz** - Order parameters (magnetization, density, etc.)
+3. **correlation_functions.npz** - Two-point correlation functions
+4. **entanglement.npz** - Entanglement measures
+
+## Data Generation
+
+These files are generated from quantum many-body simulations. 
+
+To generate the data:
+1. Run your simulation code (ED/DMRG)
+2. Save outputs in NumPy compressed format (.npz)
+3. Ensure arrays are named according to the schema in the main README
+
+## File Format
+
+See the main `README.md` in this directory for detailed format specifications.
+
+---
+**Note**: Placeholder file - actual data to be added.

@@ -1,0 +1,25 @@
+# Figures Placeholder
+
+This directory will contain publication-quality figures.
+
+## Expected Figures
+
+Main figures from the paper:
+- figure1_phase_diagram.pdf
+- figure2_scaling_collapse.pdf
+- figure3_entanglement.pdf
+- figure4_factorization.pdf
+
+Supplementary figures:
+- figureS1_energy_levels.pdf
+- figureS2_correlation_functions.pdf
+- And more...
+
+## Generating Figures
+
+Use the scripts in `code/visualization/` to generate figures from the data.
+
+See the main `README.md` in this directory for more information.
+
+---
+**Note**: Placeholder file - figures to be generated from data.
