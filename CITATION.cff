@@ -1,16 +1,15 @@
 cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
 authors:
-- family-names: "Jiang"
-  given-names: "Yuan"
-- family-names: "You"
-  given-names: "Wen-Long"
-- family-names: "You"
-  given-names: "Wen-Long"
-- family-names: "Li"
-  given-names: "Liangsheng"
-- family-names: "Liu"
-  given-names: "Maoxin"
+  - family-names: "Jiang"
+    given-names: "Yuan"
+  - family-names: "You"
+    given-names: "Wen-Long"
+  - family-names: "Li"
+    given-names: "Liangsheng"
+  - family-names: "Liu"
+    given-names: "Maoxin"
 title: "Quantum Criticality and Factorization in a Constrained Rydberg Spin Chain"
-doi: 
 date-released: 2026-02-02
 url: "https://github.com/UynajGI/Quantum-criticality-and-factorization-in-a-constrained-Rydberg-spin-chain"
+type: dataset
